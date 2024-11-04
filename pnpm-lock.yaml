@@ -17,13 +17,10 @@ importers:
         version: 2.1.4(react@19.0.0-rc-cd22717c-20241013)
       '@tailwindcss/forms':
         specifier: ^0.5.7
-        version: 0.5.7(tailwindcss@3.4.4)
+        version: 0.5.7(tailwindcss@3.4.14)
       '@vercel/postgres':
         specifier: ^0.8.0
         version: 0.8.0
-      autoprefixer:
-        specifier: 10.4.19
-        version: 10.4.19(postcss@8.4.38)
       bcrypt:
         specifier: ^5.1.1
         version: 5.1.1
@@ -36,18 +33,12 @@ importers:
       next-auth:
         specifier: 5.0.0-beta.19
         version: 5.0.0-beta.19(next@15.0.0(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013)
-      postcss:
-        specifier: 8.4.38
-        version: 8.4.38
       react:
         specifier: 19.0.0-rc-cd22717c-20241013
         version: 19.0.0-rc-cd22717c-20241013
       react-dom:
         specifier: 19.0.0-rc-cd22717c-20241013
         version: 19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013)
-      tailwindcss:
-        specifier: 3.4.4
-        version: 3.4.4
       typescript:
         specifier: 5.5.2
         version: 5.5.2
@@ -70,6 +61,15 @@ importers:
       '@types/react-dom':
         specifier: npm:types-react-dom@19.0.0-rc.1
         version: types-react-dom@19.0.0-rc.1
+      autoprefixer:
+        specifier: 10.4.19
+        version: 10.4.19(postcss@8.4.38)
+      postcss:
+        specifier: 8.4.38
+        version: 8.4.38
+      tailwindcss:
+        specifier: ^3.4.14
+        version: 3.4.14
 
 packages:
 
@@ -1032,8 +1032,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tailwindcss@3.4.4:
-    resolution: {integrity: sha512-ZoyXOdJjISB7/BcLTR6SEsLgKtDStYyYZVLsUtWChO4Ps20CBad7lfJKVDiejocV4ME1hLmyY0WJE3hSDcmQ2A==}
+  tailwindcss@3.4.14:
+    resolution: {integrity: sha512-IcSvOcTRcUtQQ7ILQL5quRDg7Xs93PdJEk1ZLbhhvJc7uj/OAhYOnruEiwnGgBvUtaUAJ8/mhSw1o8L2jCiENA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -1338,10 +1338,10 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  '@tailwindcss/forms@0.5.7(tailwindcss@3.4.4)':
+  '@tailwindcss/forms@0.5.7(tailwindcss@3.4.14)':
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.14
 
   '@types/bcrypt@5.0.2':
     dependencies:
@@ -2008,7 +2008,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss@3.4.4:
+  tailwindcss@3.4.14:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
